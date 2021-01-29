@@ -6,4 +6,9 @@ void main(int argc, char **argv){
   int i;
   for(i=1;i<argc;i++)
     printf("argument#%d is %d\n",i, atoi(argv[i]));
+    //55
+    //555
+
+
+
 }
