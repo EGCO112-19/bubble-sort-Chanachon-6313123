@@ -19,13 +19,14 @@ int main(int argc, char *argv[]){
 
   for(i=1;i<argc;i++){
         a[i-1]=atoi(argv[i]);
+        
   }
+  if(argv[i]=="bubble")
+    bubble(a,N);
   
-
-
-  //  bubble(a,N);
- // insertion(a,N);
-    selection(a,N);
+  //else(arvg[i]=="insertion")
+    insertion(a,N);
+    //selection(a,N);
  
   return 0;
 }
