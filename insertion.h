@@ -1,10 +1,3 @@
-//
-//  bubble.h
-//  First arg
-//
-//  Created by Mingmanas Sivaraksa on 2/1/2564 BE.
-//
-
 #ifndef insertion_h
 #define insertion_h
 
@@ -31,4 +24,4 @@ for(i=1;i<N;i++){
 
 }
 
-#endif /* bubble_h */
+#endif

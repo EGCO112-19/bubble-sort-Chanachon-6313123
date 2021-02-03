@@ -1,10 +1,3 @@
-//
-//  bubble.h
-//  First arg
-//
-//  Created by Mingmanas Sivaraksa on 2/1/2564 BE.
-//
-
 #ifndef selection_h
 #define selection_h
 
@@ -30,4 +23,4 @@ void selection(int a[], int N){
 }
 
 
-#endif /* bubble_h */
+#endif
