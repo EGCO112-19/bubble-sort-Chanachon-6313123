@@ -16,15 +16,17 @@ int main(int argc, char *argv[]){
   }
 
 
-  N=argc-1;
+  N=argc-2;
   //N=*argv[i-1];
   int *a;
 
  a=(int*) malloc(sizeof(int)*N);
 
-  for(i=1;i<argc;i++){
-        a[i-1]=atoi(argv[i]);
-        
+  for(i=2;i<argc;i++){
+        //i-1
+        a[i-2]=atoi(argv[i]);
+       
+      
   }
 
   if(strcmp(argv[1],"bubble")==0){
