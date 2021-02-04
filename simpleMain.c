@@ -12,7 +12,7 @@ int main(int argc, char *argv[]){
   printf("There are %d arguments\n",argc);
   for(i=0;i<argc;i++){
          printf("argv %d: %s\n",i,argv[i]);
-         //N=*argv[i]; 
+
   }
 
 
@@ -37,9 +37,6 @@ int main(int argc, char *argv[]){
   insertion(a,N);
   }
 
-
-
-  
   /*a=(int*) malloc(sizeof(int)*N);
 
   for(i=1;i<argc;i++){
