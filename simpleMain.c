@@ -30,13 +30,15 @@ int main(int argc, char *argv[]){
   }
 
   if(strcmp(argv[1],"bubble")==0){
-    //argv[1]=NULL;
   bubble(a,N);
   }
 
   if(strcmp(argv[1],"insertion")==0){
-    //argv[1]=NULL;
   insertion(a,N);
+  }
+
+   if(strcmp(argv[1],"selection")==0){
+  selection(a,N);
   }
 
   /*a=(int*) malloc(sizeof(int)*N);
